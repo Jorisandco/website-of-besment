@@ -129,6 +129,11 @@
     color: white;
 }
 
+.text{
+    font-family: "Comic Sans MS";
+    color: white;
+}
+
 /* upload_button */
 #flexbox_uploadButton{
     border: 1px solid black;
