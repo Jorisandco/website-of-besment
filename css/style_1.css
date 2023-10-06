@@ -175,3 +175,44 @@
     flex-direction: column;
     height: 100%;
 }
+/* link styles */
+
+
+.links_text{
+    text-decoration: none;
+}
+
+.links_text li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.links_text li::after{
+    content: "";
+    margin: 5px;
+    display: block;
+    background-color: rgb(0, 54, 162);
+    width: 0%;
+    height: 2px;
+    transition: 0.4999s;
+}
+
+.links_text li:hover::after{
+    margin-bottom: 80px;
+}
+
+.links_text li{
+    list-style: none;
+    position: relative;
+}
+
+.links_selection{
+    text-align: left;
+    flex: 1;
+}
+
+.links_text li a:hover{
+    font-size: 40px;
+}
